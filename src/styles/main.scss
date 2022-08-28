@@ -157,8 +157,17 @@ h3 {
   font-size: 60px;
 }
 /* P O R T F O L I O   S T Y L I N G */
-.portfolio {
+.toggle-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
 
+.toggle-button {
+  font-size: 25px;
+  background-color: transparent;
+  border: none;
 }
 /* flex layout */
 
@@ -183,11 +192,12 @@ h5 {
 }
 
 .portfolio-container {
+  min-height: 100vh;
   margin-top: 100px;
   text-align: center;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  // display: flex;
+  // flex-wrap: wrap;
+  // justify-content: space-between;
   width: 100%;
 }
 
