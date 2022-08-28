@@ -1,29 +1,38 @@
 import React from "react";
-import tflimg from "../Images/smartmockups_l7diceae.png"
+import codeimage from "../Images/smartmockups_l7dxjdef.png"
+
 function BookingProject() {
-  return (
-    <div className="project-container">
+  return ( <>
+    <div className="project-container-current">
       <div className="left-side">
-        <img className="project-preview-img" src={tflimg}></img>
+        <img className="project-preview-img" src={codeimage}></img>
       </div>
       <div className="right-side">
-        <h5>London Transport Site </h5>
+        <h5>Booking App (In Development)</h5>
         <div className="technologies-used">
           <i className="devicon-html5-plain colored smallicon"></i>
           <i className="devicon-css3-plain colored smallicon"></i>
           <i className="devicon-javascript-plain colored smallicon"></i>
           <i className="devicon-react-original colored smallicon"></i>
         </div>
-        <p>A mobile-first multipage React app which utilises the TFL Unified API and allows users to view service updates, 
-          search for live departures and plan journeys. The app was built as a personal side project to help 
-          improve my react and front-end development skills. This is version one, and I am currently working on adding extra features
-          such as advanced journey search, google maps integration and user accounts to provide a more personalised experience.</p>
+        <p><b>Current stage:</b> planning and Whiteboarding</p>
+
+        <p>This project will be a Full stack web app built using the MERN stack. I intend this application to be a booking system which
+          will allow users to search for event tickets and purchase them. The project will include a search engine, booking form, demo payment system 
+          and a fully built user account interface which allows users to view and manage purchases as well as alter account details. 
+        </p>
         <div className="link-buttons-container">
-          <button className="portfolio-link"><a href="https://london-transport.netlify.app/" target="_blank">Live site</a></button>
-          <button className="portfolio-link"><a href="https://github.com/luke-o-brien/Transport-for-London-App" target="_blank">Github Respository</a></button>
+          <button className="portfolio-link"><a href="https://github.com/luke-o-brien/Booking-app" rel="noreferrer" target="_blank">Github Respository</a></button>
         </div>
       </div>
     </div>
+    {/* <div className="project-updates">
+      <h5>Project Updates</h5>
+      <div className="update container">
+        <p>28th August 2022</p>
+      </div>
+    </div> */}
+  </>
   )
 }
 
