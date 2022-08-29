@@ -27,7 +27,7 @@ function VenuesArtistsProject() {
         </p>
         <div className="link-buttons-container">
           <button className="portfolio-link"><a id="mfs-modal" target="_blank">Live site</a></button>
-          <button className="portfolio-link"><a href="https://github.com/luke-o-brien/Transport-for-London-App" target="_blank">Github Respository</a></button>
+          <button className="portfolio-link"><a href="https://github.com/luke-o-brien/Transport-for-London-App" rel="noreferrer" target="_blank">Github Respository</a></button>
         </div>
       </div>
     </div>

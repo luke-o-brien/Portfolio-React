@@ -5,7 +5,7 @@ import MyFoundSounds from "./components/myfoundsounds.js";
 import Fishwatch from "./components/fishwatch.js";
 import Pacman from "./components/pacman.js";
 // image imports
-import lukeimage from "./Images/P1000496.jpeg"
+// import lukeimage from "./Images/P1000496.jpeg"
 import BookingProject from "./components/bookingproject.js";
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
       {/* N A V B A R */}
       <nav>
         <ul>
-          <li className="push-left"><a href="#">Luke O'Brien</a></li>
+          <li className="push-left"><a href="#">{"Luke O'Brien"}</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#skills">Experience</a></li>
@@ -34,11 +34,11 @@ function App() {
       {/* H E R O   S E C T I O N */}
       <header className="header">
         <div className="title-container">
-          <h1>Luke O'Brien</h1>
+          <h1>{"Luke O'Brien"}</h1>
           <h4>Software Engineering Portfolio </h4>
           <div className="logo-container">
-            <a className="link-icon" href="https://github.com/luke-o-brien" target="_blank"><i className="fa-brands fa-github fa-2x links"></i></a>
-            <a className="link-icon" href="https://www.linkedin.com/in/l-obrien/" target="_blank"><i className="fa-brands fa-linkedin fa-2x links"></i></a>
+            <a className="link-icon" href="https://github.com/luke-o-brien"  rel="noreferrer" target="_blank"><i className="fa-brands fa-github fa-2x links"></i></a>
+            <a className="link-icon" href="https://www.linkedin.com/in/l-obrien/"  rel="noreferrer"target="_blank"><i className="fa-brands fa-linkedin fa-2x links"></i></a>
           </div>
         </div>
       </header>
@@ -47,12 +47,12 @@ function App() {
         <div className="about-me-container">
           <div className="blurb">
             <h3>Hi,</h3>
-            <h3>I'm Luke</h3>
-            <p className="bio">When looking for a change in career I identified the aspect of my previous roles which I enjoyed most 
+            <h3>{"I'm Luke"}</h3>
+            <p className="bio">{` When looking for a change in career I identified the aspect of my previous roles which I enjoyed most 
             and this was problem solving. This coupled with my interest in languages led me to try coding. I quickly found that I 
             loved creating things and solving problems using code. I enrolled In General Assembly's Software Engineering Immersive 
             course to deepen my understanding and develop my skills. I am now looking for my first role in the industry to allow me 
-            to apply and build on what I have already learnt.</p>
+            to apply and build on what I have already learnt.`}</p>
           </div>
           <div className="skills-container">
             <h5 className="skilltitle">My skills</h5>
@@ -78,7 +78,7 @@ function App() {
         <h2>Portfolio</h2>
         <div className="portfolio-container">
           <div className="toggle-buttons">
-            <button  onClick={toggleclick} value="current" className={ projecttype === "current" ? "active" : "toggle-button"}>What I'm working on</button>
+            <button  onClick={toggleclick} value="current" className={ projecttype === "current" ? "active" : "toggle-button"}>{"What I'm working on"}</button>
             <button  onClick={toggleclick} value="generalassembly" className={ projecttype === "generalassembly" ? "active" : "toggle-button"}>General Assembly Projects</button>
             <button  onClick={toggleclick} value="past" className={ projecttype === "past" ? "active" : "toggle-button"}>Past Projects</button>
           </div>
@@ -107,8 +107,8 @@ function App() {
         </div>
       </section>
       <footer>
-        <a className="link-icon-footer" href="https://github.com/luke-o-brien" target="_blank"><i className="fa-brands fa-github fa-2x links"></i></a>
-        <a className="link-icon-footer" href="https://www.linkedin.com/in/l-obrien/" target="_blank"><i className="fa-brands fa-linkedin fa-2x links"></i></a>
+        <a className="link-icon-footer" href="https://github.com/luke-o-brien" rel="noreferrer" target="_blank"><i className="fa-brands fa-github fa-2x links"></i></a>
+        <a className="link-icon-footer" href="https://www.linkedin.com/in/l-obrien/"  rel="noreferrer" target="_blank"><i className="fa-brands fa-linkedin fa-2x links"></i></a>
         <p>lukeobrien02@gmail.com</p>
       </footer>
     </div>

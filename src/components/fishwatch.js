@@ -21,8 +21,8 @@ function Fishwatch() {
         my work focused on the fish of the day component, which displayed a different fish to the user each day, making use of local storage. I also created the page which utilised the 
         Edamam API  </p>
         <div className="link-buttons-container">
-          <button className="portfolio-link"><a href="https://myfoundsounds.netlify.app/" target="_blank">Live site</a></button>
-          <button className="portfolio-link"><a href="https://github.com/luke-o-brien/Project-3-MERN-Backend" target="_blank">Github Respository</a></button>
+          <button className="portfolio-link"><a href="https://myfoundsounds.netlify.app/" rel="noreferrer" target="_blank">Live site</a></button>
+          <button className="portfolio-link"><a href="https://github.com/luke-o-brien/Project-3-MERN-Backend" rel="noreferrer" target="_blank">Github Respository</a></button>
         </div>
       </div>
     </div>
