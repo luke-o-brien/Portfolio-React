@@ -328,18 +328,29 @@ h5 {
 }
 footer {
   background-color: black;
-}
-
-footer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
+.linksconta {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 15px;
+}
 .link-icon-footer {
+  text-align: center;
   color: white;
-  margin: 0px 0px 40px 0px;
+  margin: 0px;
 }
 
+.email {
+  margin-top: 15px;
+  color: white;
+  border: solid 2px white;
+  border-radius: 10px;
+  padding: 20px;
+}
 
 
 .modal {

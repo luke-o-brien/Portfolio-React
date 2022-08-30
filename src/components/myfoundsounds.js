@@ -24,8 +24,8 @@ function myfoundsounds() {
         their devices and search for and listen to other users' sounds. For this project, we created our back-end API using Mongo Db and Express along with utilising the Cloudinary API for audio file storage. 
         To aid the development of the project, our group utilised Jira and scrum working to plan the project, assign tasks and track progress through the two one-week sprints.`}</p>
         <div className="link-buttons-container">
-          <button className="portfolio-link"><a id="mfs-modal" target="_blank">Live site</a></button>
-          <button className="portfolio-link"><a href="https://github.com/luke-o-brien/Transport-for-London-App" rel="noreferrer" target="_blank">Github Respository</a></button>
+          <button className="portfolio-link"><a href="https://myfoundsounds.netlify.app" id="mfs-modal" rel="noreferrer" target="_blank">Live site</a></button>
+          <button className="portfolio-link"><a href="https://github.com/luke-o-brien/Project-3-MERN-Backend" rel="noreferrer" target="_blank">Github Respository</a></button>
         </div>
       </div>
     </div>

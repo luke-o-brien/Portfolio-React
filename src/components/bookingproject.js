@@ -14,6 +14,11 @@ function BookingProject() {
           <i className="devicon-css3-plain colored smallicon"></i>
           <i className="devicon-javascript-plain colored smallicon"></i>
           <i className="devicon-react-original colored smallicon"></i>
+          <i className="devicon-nodejs-plain colored smallicon"></i>
+          <i className="devicon-mongodb-plain colored smallicon"></i>
+          <i className="devicon-express-original colored smallicon"></i>
+          <i className="devicon-sass-original colored smallicon"></i>
+          <i className="devicon-jira-plain-wordmark colored smallicon"></i>
         </div>
         <p><b>Current stage:</b> planning and Whiteboarding</p>
 

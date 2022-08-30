@@ -18,8 +18,8 @@ function Pacman() {
       using keyboard inputs to collect pellets and capture ghosts when they are vulnerable. The game includes a leaderboard created using local storage as 
       well as a theme and map size selector, which is chosen by the user before the game begins.</p>
         <div className="link-buttons-container">
-          <button className="portfolio-link"><a href="https://venuesandartists.netlify.app/" rel="noreferrer" target="_blank">Live site</a></button>
-          <button className="portfolio-link"><a href="https://github.com/luke-o-brien/Project-4-Backend" rel="noreferrer" target="_blank">Github Respository</a></button>
+          <button className="portfolio-link"><a href="https://luke-o-brien.github.io/Pacman-Game/" rel="noreferrer" target="_blank">Live site</a></button>
+          <button className="portfolio-link"><a href="https://github.com/luke-o-brien/Pacman-Game" rel="noreferrer" target="_blank">Github Respository</a></button>
         </div>
       </div>
     </ div>

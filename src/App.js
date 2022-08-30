@@ -10,7 +10,7 @@ import BookingProject from "./components/bookingproject.js";
 
 function App() {
   
-  const [projecttype, setprojecttype] = React.useState("")
+  const [projecttype, setprojecttype] = React.useState("current")
 
 
   function toggleclick(e){
@@ -107,9 +107,11 @@ function App() {
         </div>
       </section>
       <footer>
+        <p className="email">lukeobrien02@gmail.com</p>
+        <div className="linksconta">
         <a className="link-icon-footer" href="https://github.com/luke-o-brien" rel="noreferrer" target="_blank"><i className="fa-brands fa-github fa-2x links"></i></a>
         <a className="link-icon-footer" href="https://www.linkedin.com/in/l-obrien/"  rel="noreferrer" target="_blank"><i className="fa-brands fa-linkedin fa-2x links"></i></a>
-        <p>lukeobrien02@gmail.com</p>
+        </div>
       </footer>
     </div>
   )
