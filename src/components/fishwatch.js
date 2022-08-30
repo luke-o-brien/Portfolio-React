@@ -22,7 +22,7 @@ function Fishwatch() {
         Edamam API  </p>
         <div className="link-buttons-container">
           <button className="portfolio-link"><a href="https://fishwatch.netlify.app" rel="noreferrer" target="_blank">Live site</a></button>
-          <button className="portfolio-link"><a href="https://github.com/luke-o-brien/Project-2" rel="noreferrer" target="_blank">Github Respository</a></button>
+          <button className="portfolio-link"><a href="https://github.com/luke-o-brien/Project-2" rel="noreferrer" target="_blank">Github Repository</a></button>
         </div>
       </div>
     </div>

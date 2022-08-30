@@ -25,7 +25,7 @@ function myfoundsounds() {
         To aid the development of the project, our group utilised Jira and scrum working to plan the project, assign tasks and track progress through the two one-week sprints.`}</p>
         <div className="link-buttons-container">
           <button className="portfolio-link"><a href="https://myfoundsounds.netlify.app" id="mfs-modal" rel="noreferrer" target="_blank">Live site</a></button>
-          <button className="portfolio-link"><a href="https://github.com/luke-o-brien/Project-3-MERN-Backend" rel="noreferrer" target="_blank">Github Respository</a></button>
+          <button className="portfolio-link"><a href="https://github.com/luke-o-brien/Project-3-MERN-Backend" rel="noreferrer" target="_blank">Github Repository</a></button>
         </div>
       </div>
     </div>

@@ -27,7 +27,7 @@ function VenuesArtistsProject() {
         </p>
         <div className="link-buttons-container">
           <button className="portfolio-link"><a href="https://venuesandartists.netlify.app/" rel="noreferrer" id="mfs-modal" target="_blank">Live site</a></button>
-          <button className="portfolio-link"><a href="https://github.com/luke-o-brien/Project-4-Backend" rel="noreferrer" target="_blank">Github Respository</a></button>
+          <button className="portfolio-link"><a href="https://github.com/luke-o-brien/Project-4-Backend" rel="noreferrer" target="_blank">Github Repository</a></button>
         </div>
       </div>
     </div>

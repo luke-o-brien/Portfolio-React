@@ -20,7 +20,7 @@ function TFLProject() {
           such as advanced journey search, google maps integration and user accounts to provide a more personalised experience.</p>
         <div className="link-buttons-container">
           <button className="portfolio-link"><a href="https://london-transport.netlify.app/" rel="noreferrer" target="_blank">Live site</a></button>
-          <button className="portfolio-link"><a href="https://github.com/luke-o-brien/Transport-for-London-App" rel="noreferrer" target="_blank">Github Respository</a></button>
+          <button className="portfolio-link"><a href="https://github.com/luke-o-brien/Transport-for-London-App" rel="noreferrer" target="_blank">Github Repository</a></button>
         </div>
       </div>
     </div>

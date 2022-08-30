@@ -27,7 +27,7 @@ function BookingProject() {
           and a fully built user account interface which allows users to view and manage purchases as well as alter account details. 
         </p>
         <div className="link-buttons-container">
-          <button className="portfolio-link"><a href="https://github.com/luke-o-brien/Booking-app" rel="noreferrer" target="_blank">Github Respository</a></button>
+          <button className="portfolio-link"><a href="https://github.com/luke-o-brien/Booking-app" rel="noreferrer" target="_blank">Github Repository</a></button>
         </div>
       </div>
     </div>
