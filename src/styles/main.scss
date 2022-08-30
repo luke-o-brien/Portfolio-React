@@ -284,6 +284,15 @@ h5 {
   position: relative;
 }
 
+h6 {
+  text-align: left;
+}
+
+.jobtitle {
+  font-size: 20px;
+  text-decoration: u;
+}
+
 .link-buttons-container {
   width: 100%;
   /* display: flex;
@@ -298,6 +307,7 @@ h5 {
 .portfolio-link {
   background-color: rgb(254, 233, 114);
   border: none;
+  border-radius: 10px;
   font-size: 30px;
   font-weight: 100;
   margin: 20px 20px 10px 0px;
@@ -394,6 +404,32 @@ footer {
   margin: 20px;
 }
 
+// E X P E R I E N C E   S E C T I O N
+
+.experience {
+  min-height: 100vh;
+}
+
+.h2-white {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.exp-container {
+
+}
+
+.exp-preview-img{
+  max-height: 350px;
+  width: auto;
+  max-width: 90%;
+}
+
+//! / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /
+
+//!  M E D I A    Q U E R I E S
+
+//! / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /
 
 @media only screen and (max-width: 800px) {
   .portfolio-container {

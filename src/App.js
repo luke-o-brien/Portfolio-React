@@ -4,6 +4,8 @@ import VenuesArtistsProject from "./components/VenuesArtists.js";
 import MyFoundSounds from "./components/myfoundsounds.js";
 import Fishwatch from "./components/fishwatch.js";
 import Pacman from "./components/pacman.js";
+import eb from "./Images/ellis-brigham_mountain_sports (1).png"
+import GA from "./Images/generalassembly-open-graph.webp"
 // image imports
 // import lukeimage from "./Images/P1000496.jpeg"
 import BookingProject from "./components/bookingproject.js";
@@ -27,8 +29,8 @@ function App() {
           <li className="push-left"><a href="#">{"Luke O'Brien"}</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#skills">Experience</a></li>
-          <li><a href="#skills">contact</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">contact</a></li>
         </ul>
       </nav>
       {/* H E R O   S E C T I O N */}
@@ -48,11 +50,8 @@ function App() {
           <div className="blurb">
             <h3>Hi,</h3>
             <h3>{"I'm Luke"}</h3>
-            <p className="bio">{` When looking for a change in career I identified the aspect of my previous roles which I enjoyed most 
-            and this was problem solving. This coupled with my interest in languages led me to try coding. I quickly found that I 
-            loved creating things and solving problems using code. I enrolled In General Assembly's Software Engineering Immersive 
-            course to deepen my understanding and develop my skills. I am now looking for my first role in the industry to allow me 
-            to apply and build on what I have already learnt.`}</p>
+            <p className="bio">{` When looking for a change in careers I identified the aspects of my previous roles which I enjoyed most and this was problem solving. This coupled with my interest in languages led me to try coding. I quickly found that I loved creating things and solving problems using code. I enrolled In General Assembly’s Software Engineering Immersive course to deepen my understanding and develop my skills. During this course I learnt the fundamentals of programming and had the opportunity to apply my knowledge through undertaking four projects using a range of technologies. Having completed the course I am now looking for my first role in the industry to allow me to apply and build on what I have already learnt.
+`}</p>
           </div>
           <div className="skills-container">
             <h5 className="skilltitle">My skills</h5>
@@ -106,11 +105,61 @@ function App() {
           }
         </div>
       </section>
-      <footer>
+      <section className="experience" id="experience">
+        <h2 >Experience</h2>
+        <div className="exp-container">
+          <div className="project-container">
+            <div className="right-side">
+              <h5>General Assembly</h5>
+              <p className="jobtitle">Software Engineering Immersive</p>
+              <p><b>March 2022 - August 2022</b></p>
+              <p>A 6 Month Part time course, which covered the fundementals of Programming as well as teaching pratical programming skills relating to both front end and back end development.
+                This course gave me the opportunity to apply what I had learnt during the 4 projects. During these projects I was able to use a number of languages and frameworks to create full stack 
+                applications. Along with applying these skills during the group projects I was able to expeience pair and group programming as well as learn about Agile Development and was able to use project management tools such as JIRA 
+                to help manage workflow as well as daily stand ups. 
+              </p>
+            </div>
+            <div className="left-side">
+              <img className="exp-preview-img" src={GA}></img>
+            </div>
+          </div>
+          <div className="project-container">
+            <div className="right-side">
+              <h5>Self Employed</h5>
+              <p className="jobtitle">Online teacher of English as a second language</p>
+              <p><b>febuary 2017 - Present</b></p>
+              <p>responsible for planning and delivering lessons to a range of students of different ages, background language levels and geographical locations. Experience tailoring lesson to suit individual 
+                students abilities, goals and learning abilities. Creating learning resources such as worksheets, presentations, lesson summaries and interactive quizes and videos. I have also gained experience in advertising my services, getting new clients along with adminstration such as schedulding Invoiceing and 
+                responding to client queries. 
+              </p>
+            </div>
+            <div className="left-side">
+              <img className="exp-preview-img"></img>
+            </div>
+          </div>
+          <div className="project-container">
+            <div className="right-side">
+              <h5>Ellis Brigham Moutain Sports</h5>
+              <p className="jobtitle">Sales Assistant</p>
+              <p><b>febuary 2019 - September 2021</b></p>
+              <p>In this role I gave advice to customers who were looking for walking boots, rucksacks and other pieces of outdoor equipment as well as helping fit these to the customer. 
+              I was also responsible for managing the click and collect system on weekends; this involved ordering items form the warehouse and other stores, recieving and processing requests from other stores and the mail order department,
+              keeping customer order records updated in excel and responding to customers queries regarding their orders. In addition to these role I also work as a Ice Climbing 
+              Instructor at the stores climbing wall. Providing instruction and health and safety provision for Clients. 
+              </p>
+            </div>
+            <div className="left-side">
+              <img className="exp-preview-img" src={eb}></img>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer id="contact">
+        <h2 className="h2-white">Contact</h2>
         <p className="email">lukeobrien02@gmail.com</p>
         <div className="linksconta">
-        <a className="link-icon-footer" href="https://github.com/luke-o-brien" rel="noreferrer" target="_blank"><i className="fa-brands fa-github fa-2x links"></i></a>
-        <a className="link-icon-footer" href="https://www.linkedin.com/in/l-obrien/"  rel="noreferrer" target="_blank"><i className="fa-brands fa-linkedin fa-2x links"></i></a>
+          <a className="link-icon-footer" href="https://github.com/luke-o-brien" rel="noreferrer" target="_blank"><i className="fa-brands fa-github fa-2x links"></i></a>
+          <a className="link-icon-footer" href="https://www.linkedin.com/in/l-obrien/"  rel="noreferrer" target="_blank"><i className="fa-brands fa-linkedin fa-2x links"></i></a>
         </div>
       </footer>
     </div>
