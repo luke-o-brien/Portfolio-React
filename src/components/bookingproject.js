@@ -20,9 +20,9 @@ function BookingProject() {
           <i className="devicon-sass-original colored smallicon"></i>
           <i className="devicon-jira-plain-wordmark colored smallicon"></i>
         </div>
-        <p><b>Current stage:</b> planning and Whiteboarding</p>
+        <p><b>Current stage:</b> Planning and Whiteboarding</p>
 
-        <p>This project will be a Full stack web app built using the MERN stack. I intend this application to be a booking system which
+        <p>This project will be a full stack web app built using the MERN stack. I intend this application to be a booking system which
           will allow users to search for event tickets and purchase them. The project will include a search engine, booking form, demo payment system 
           and a fully built user account interface which allows users to view and manage purchases as well as alter account details. 
         </p>

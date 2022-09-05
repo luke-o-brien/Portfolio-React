@@ -20,9 +20,9 @@ function VenuesArtistsProject() {
           <i className="devicon-flask-original colored smallicon"></i>
           <i className="devicon-jira-plain-wordmark colored smallicon"></i>
         </div>
-        <p>For this two week pair project we created a full stack web application which allowed both music venues and artists to view the details of the 
-        other in order to find acts to perform or venues which were looking for new talent. The back-end of the project was built using Python and Flask 
-        and the front-end using react with the styling being done in tailwind CSS with some plain css. As well as the listings of artists we also created a 
+        <p>For this two week pair project, we created a full stack web application which allowed both music venues and artists to view the details of the 
+        other, in order to find acts to perform or venues which were looking for new talent. The back-end of the project was built using Python and Flask 
+        and the front-end using react with the styling being done in Tailwind CSS with some plain CSS. As well as the listings of artists we also created a 
         multipage sign in form following the typeform format using conditional rendering. 
         </p>
         <div className="link-buttons-container">

@@ -17,7 +17,7 @@ function Fishwatch() {
           <i className="devicon-bulma-plain colored smallicon"></i>
         </div>
         <p>A multipage front-end React web app which utilises the Fishwatch and Edamam API. This site takes information from the Fishwatch API 
-        and displays information about different species; it also uses the Edamam API to show recipes for more sustainable fish choices. This was a pair project 
+        and displays information about different species; it also uses the Edamam API to show recipes for more sustainable fish choices. This was a pair project, 
         my work focused on the fish of the day component, which displayed a different fish to the user each day, making use of local storage. I also created the page which utilised the 
         Edamam API  </p>
         <div className="link-buttons-container">
