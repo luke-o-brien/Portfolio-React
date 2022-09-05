@@ -112,7 +112,7 @@ function App() {
               </> : null }  
           </> 
           }
-          <a href="#portfolio" className="totop">Top of section<i class="fa-solid fa-angle-up"></i></a>
+          <a href="#portfolio" className="totop">Top of section<i className="fa-solid fa-angle-up"></i></a>
         </div>
       
       </section>
