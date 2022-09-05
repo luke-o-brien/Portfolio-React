@@ -96,7 +96,7 @@ a {
 }
 
 .blurb {
-  width: 60%;
+  width: 50%;
   margin-right: 5%;
 } 
 
@@ -112,10 +112,22 @@ h3 {
   line-height: 1.2;
   letter-spacing: 1px;
 }
+
+
+.nameandphoto {
+  display: flex;
+}
+
 .image{
   flex: 1;
   margin-left: 5%;
   display: flex;
+}
+
+.luke-photo {
+  height: 500px;
+  width: auto;
+  border-radius: 10px;
 }
 
 
@@ -150,12 +162,19 @@ h3 {
 }
 
 .skilltitle {
-  text-align: center;
+  text-align: left;
+  margin-left: 5%;
+  margin-top: 40px;
+}
+
+.individualskills {
+  text-align: left;
+  margin-left: 6.5%;
 }
 
 .icon-container {
   display: block;
-  width: 30%;
+  width: 15%;
   margin-bottom: 30px;
 
 }
@@ -305,7 +324,7 @@ h6 {
 }
 
 .portfolio-link {
-  background-color: rgb(254, 233, 114);
+  background-color: #fee972;
   border: none;
   border-radius: 10px;
   font-size: 30px;
@@ -404,6 +423,9 @@ footer {
   margin: 20px;
 }
 
+.totop {
+  text-align: center;
+}
 // E X P E R I E N C E   S E C T I O N
 
 .experience {

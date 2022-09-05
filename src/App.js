@@ -6,6 +6,7 @@ import Fishwatch from "./components/fishwatch.js";
 import Pacman from "./components/pacman.js";
 import eb from "./Images/ellis-brigham_mountain_sports (1).png"
 import GA from "./Images/generalassembly-open-graph.webp"
+import luke from "./Images/P1000496 (1).jpeg"
 // image imports
 // import lukeimage from "./Images/P1000496.jpeg"
 import BookingProject from "./components/bookingproject.js";
@@ -28,7 +29,7 @@ function App() {
         <ul>
           <li className="push-left"><a href="#">{"Luke O'Brien"}</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#portfolio">Projects</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -50,31 +51,41 @@ function App() {
           <div className="blurb">
             <h3>Hi,</h3>
             <h3>{"I'm Luke"}</h3>
-            <p className="bio">{` When looking for a change in careers I identified the aspects of my previous roles which I enjoyed most and this was problem solving. This coupled with my interest in languages led me to try coding. I quickly found that I loved creating things and solving problems using code. I enrolled In General Assembly’s Software Engineering Immersive course to deepen my understanding and develop my skills. During this course I learnt the fundamentals of programming and had the opportunity to apply my knowledge through undertaking four projects using a range of technologies. Having completed the course I am now looking for my first role in the industry to allow me to apply and build on what I have already learnt.
-`}</p>
+            <p className="bio">{` When looking for a change in careers, I identified the aspects of my previous roles 
+            which I enjoyed most and this was problem solving.This coupled with my interest in languages led me to try coding. 
+            I quickly found that I loved creating things and solving problems using code. I enrolled in General Assembly’s 
+            Software Engineering Immersive course to deepen my understanding and develop my skills. During this course I learnt
+            the fundamentals of programming and had the opportunity to apply my knowledge through undertaking four projects using 
+            a range of technologies to create front-end and full-stack web applications. Having completed the course I am now looking for my first role in the industry to allow me 
+            to apply and build on what I have already learnt.`}</p>
           </div>
-          <div className="skills-container">
-            <h5 className="skilltitle">My skills</h5>
-            <div className="skills">
-              <div className="icon-container"><i className="devicon-html5-plain colored bigicon"></i><p>HTML</p></div>
-              <div className="icon-container"><i className="devicon-css3-plain colored bigicon"></i><p>CSS</p></div>
-              <div className="icon-container"><i className="devicon-javascript-plain colored bigicon"></i><p>JavaScript</p></div>
-              <div className="icon-container"><i className="devicon-react-original colored bigicon"></i><p>React</p></div>
-              <div className="icon-container"><i className="devicon-nodejs-plain colored bigicon"></i><p>Node JS</p></div>
-              <div className="icon-container"><i className="devicon-mongodb-plain colored bigicon"></i><p>Mongo Db</p></div>
-              <div className="icon-container"><i className="devicon-express-original colored bigicon"></i><p>Express</p></div>
-              <div className="icon-container"><i className="devicon-flask-original colored bigicon"></i><p>Flask</p></div>
-              <div className="icon-container"><i className="devicon-python-plain colored bigicon"></i><p>Python</p></div>
-              <div className="icon-container"><i className="devicon-jira-plain colored bigicon"></i><p>Jira</p></div>
-              <div className="icon-container"><i className="devicon-sass-original colored bigicon"></i><p>Sass</p></div>
-              <div className="icon-container"><i className="devicon-git-plain colored bigicon"></i><p>Git</p></div>
-            </div>
+          <div className="image">
+            <img className="luke-photo" src={luke}></img>
           </div>
         </div>
+        <h5 className="skilltitle">Technical skills</h5>
+        <div className="skills">
+          <div className="icon-container"><i className="devicon-html5-plain colored bigicon"></i><p>HTML</p></div>
+          <div className="icon-container"><i className="devicon-css3-plain colored bigicon"></i><p>CSS</p></div>
+          <div className="icon-container"><i className="devicon-javascript-plain colored bigicon"></i><p>JavaScript</p></div>
+          <div className="icon-container"><i className="devicon-react-original colored bigicon"></i><p>React</p></div>
+          <div className="icon-container"><i className="devicon-nodejs-plain colored bigicon"></i><p>Node JS</p></div>
+          <div className="icon-container"><i className="devicon-mongodb-plain colored bigicon"></i><p>Mongo Db</p></div>
+          <div className="icon-container"><i className="devicon-express-original colored bigicon"></i><p>Express</p></div>
+          <div className="icon-container"><i className="devicon-flask-original colored bigicon"></i><p>Flask</p></div>
+          <div className="icon-container"><i className="devicon-python-plain colored bigicon"></i><p>Python</p></div>
+          <div className="icon-container"><i className="devicon-jira-plain colored bigicon"></i><p>Jira</p></div>
+          <div className="icon-container"><i className="devicon-sass-original colored bigicon"></i><p>Sass</p></div>
+          <div className="icon-container"><i className="devicon-git-plain colored bigicon"></i><p>Git</p></div>
+        </div>
+        <h5 className="skilltitle">Soft skills</h5>
+        <p className="individualskills">communication, problem solving, adaptability, time management, self motivated </p>
+        <h5 className="skilltitle">Languages Spoken</h5>
+        <p  className="individualskills">Russian (intermediate)</p>
       </section>
       <section className="portfolio" id="portfolio">
         {/* P O R T F O L I O */}
-        <h2>Portfolio</h2>
+        <h2>Projects</h2>
         <div className="portfolio-container">
           <div className="toggle-buttons">
             <button  onClick={toggleclick} value="current" className={ projecttype === "current" ? "active" : "toggle-button"}>{"What I'm working on"}</button>
@@ -92,19 +103,20 @@ function App() {
                 <MyFoundSounds />
                 <Fishwatch />
                 <Pacman />
+                
               </> : null 
             }
             {
               projecttype === "past" ? <>
                 <TFLProject />
-              </> : null }
-      
-            
-        
+              </> : null }  
           </> 
           }
+          <a href="#portfolio" className="totop">Top of section<i class="fa-solid fa-angle-up"></i></a>
         </div>
+      
       </section>
+      
       <section className="experience" id="experience">
         <h2 >Experience</h2>
         <div className="exp-container">
