@@ -500,12 +500,16 @@ footer {
   }
 
 }
-@media only screen and (max-width: 500px) {
+
+
+
+
+@media only screen and (max-width: 400px) {
 
 
   nav li { 
-    margin: 10px 10px 10px 10px;
-    font-size: 15px;
+    margin: 10px 5px 10px 5px;
+    font-size: 10px;
     font-weight: 100;
   }
 
@@ -634,6 +638,27 @@ h5 {
   width: 30%;
   margin-bottom:50px;
 
+}
+
+.toggle-button {
+  width: 33%;
+  padding: 10px;
+  height: 50px;
+  font-size: 10px;
+  color: rgb(138, 138, 138);
+  border: none;
+  border-bottom: 1px solid rgb(182, 182, 182);
+  background-color: transparent;
+}
+
+.active {
+  width: 30%;
+  padding: 10px;
+  color: black;
+  font-size: 12px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid rgb(254, 233, 114)
 }
 }
 

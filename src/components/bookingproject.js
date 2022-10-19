@@ -3,7 +3,7 @@ import codeimage from "../Images/smartmockups_l7dxjdef.png"
 
 function BookingProject() {
   return ( <>
-    <div className="project-container-current">
+    <div className="project-container">
       <div className="left-side">
         <img className="project-preview-img" src={codeimage}></img>
       </div>
@@ -20,7 +20,7 @@ function BookingProject() {
           <i className="devicon-sass-original colored smallicon"></i>
           <i className="devicon-jira-plain-wordmark colored smallicon"></i>
         </div>
-        <p><b>Current stage:</b> Planning and Whiteboarding</p>
+        <p><b>Current stage:</b>User account Backend setup</p>
 
         <p>This project will be a full stack web app built using the MERN stack. I intend this application to be a booking system which
           will allow users to search for event tickets and purchase them. The project will include a search engine, booking form, demo payment system 
